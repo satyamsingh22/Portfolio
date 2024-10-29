@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaGithub } from "react-icons/fa";
 import {logo} from "../../assets/index"
+import { Link } from 'react-scroll';
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
         <hr/>
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <FaInstagram />
+          <Link to='https://www.instagram.com/thakur_shaheb_9898/'> <FaInstagram /> </Link> 
           </span>
           <span className="bannerIcon">
             <FaGithub />
