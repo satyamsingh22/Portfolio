@@ -15,7 +15,7 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">John doe</span>
+          Hi, I'm <span className="text-designColor capitalize">Satyam Singh</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -26,10 +26,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
-        </p>
+        "A highly skilled Full Stack Developer with a focus on the MERN stack and React Native, delivering dynamic web and mobile applications. With a strong foundation in app development and the latest technologies, including Generative AI, I am passionate about crafting innovative, efficient solutions that enhance user experiences and drive results."        </p>
       </div>
      {/* Media */}
      <Media />
