@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../layouts/Title';
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import {   doctor, tour, chat, portfolio, recipe, weather } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -18,39 +18,39 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
           title="Doctor Appointment"
-          des="Lorem, ipsum dolor sit amet consectetur adipisicing elit."
-          src={projectOne}
+          des="A Doctor Appointment system built with MERN stack and Redux for state management. It allows users to book, manage appointments, and interact with doctors through an intuitive, responsive interface."
+          src={doctor}
           projectLink="https://doctor-appoitment.onrender.com/"
         />
         <ProjectsCard
           title="Tour and Travel"
-          des="Lorem, ipsum dolor sit amet consectetur adipisicing elit."
-          src={projectTwo}
+          des="A Tour and Travel web application built with React and Firebase for backend. It provides users with a responsive, dynamic platform to explore destinations, book trips, and manage bookings effortlessly"
+          src={tour}
           projectLink="https://tour-andtravel.netlify.app/"
         />
         <ProjectsCard
           title="Chatting App"
-          des="Lorem, ipsum dolor sit amet consectetur adipisicing elit."
-          src={projectThree}
+          des="Satyam Chat is a real-time communication app built with MERN stack and Socket.io for live chat and notifications. It uses Redux for efficient state management, providing seamless user interactions."
+          src={chat}
           projectLink="https://satyam-chat.onrender.com/login"
         />
         <ProjectsCard
           title="Recipe App"
-          des="Lorem, ipsum dolor sit amet consectetur adipisicing elit."
-          src={projectThree}
-          projectLink="https://recipe-app.com"
+          des="A Recipe App developed using HTML, CSS, and JavaScript. It fetches data from an API, allowing users to search and explore various recipes, with an interactive and user-friendly interface."
+          src={recipe}
+          projectLink=""
         />
         <ProjectsCard
           title="Portfolio"
-          des="Lorem, ipsum dolor sit amet consectetur adipisicing elit."
-          src={projectOne}
-          projectLink="https://portfolio.com"
+          des="A Portfolio built with React, designed to showcase projects and skills in a responsive and dynamic layout, ensuring a seamless experience across all devices while highlighting professional achievements and expertise."
+          src={portfolio}
+          projectLink="https://satyamportfolioo.netlify.app/"
         />
         <ProjectsCard
-          title="To-do List"
-          des="Lorem, ipsum dolor sit amet consectetur adipisicing elit."
-          src={projectTwo}
-          projectLink="https://to-do-list.com"
+          title="Weather App"
+          des="A Weather App developed using HTML, CSS, and JavaScript, fetching real-time weather data from an API. It allows users to check the weather in different locations with an intuitive and responsive interface."
+          src={weather}
+          projectLink=""
         />
       </div>
     </section>
