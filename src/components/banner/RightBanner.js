@@ -1,17 +1,20 @@
-import React from 'react'
-import { bannerImg } from "../../assets/index";
+import React from "react";
+import bannerImg from "../../assets/images/bannerImg.jpeg";
 
 const RightBanner = () => {
   return (
-    <div className="w-full lgl:w-1/2 flex justify-center items-center relative">
+    <div className="flex justify-center items-center w-full lgl:w-1/2 relative">
+      {/* Background Card with 3D shadow and red border shadow on hover */}
+      <div className="absolute w-[350px] h-[400px] lgl:w-[500px] lgl:h-[600px] bg-gradient-to-r from-[#1e2024] to-[#202327] rounded-lg shadow-2xl transform transition-transform duration-500 hover:scale-105 hover:shadow-[0_0_15px_5px_rgba(255,0,0,0.6)]"></div>
+
+      {/* Main Image with Hover Effects and Red Border Shadow */}
       <img
-        className="w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10"
+        className="shadow-[0_0_15px_5px_rgba(255,0,0,0.6)] relative w-[250px] h-[350px] lgl:w-[450px] lgl:h-[600px] object-cover rounded-lg shadow-xl z-10 transition-transform duration-300 hover:scale-110 hover:shadow-[0_0_15px_5px_rgba(255,0,0,0.6)]"
         src={bannerImg}
-        alt="bannerImg"
+        alt="Banner"
       />
-      <div className="absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
     </div>
   );
-}
+};
 
-export default RightBanner
+export default RightBanner;

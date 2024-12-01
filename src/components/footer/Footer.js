@@ -15,11 +15,21 @@ const Footer = () => {
           <a href='https://www.instagram.com/thakur_shaheb_9898/'> <FaInstagram /> </a> 
           </span>
           <span className="bannerIcon">
-            <FaGithub />
-          </span>
+          <a
+              href="https://github.com/satyamsingh22"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub />
+            </a>          </span>
           <span className="bannerIcon">
-            <FaLinkedinIn />
-          </span>
+          <a
+              href="https://www.linkedin.com/in/satyam-singh-bb1751259"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedinIn />
+            </a>          </span>
         </div>
       </div>
       <div className="w-full h-full">
