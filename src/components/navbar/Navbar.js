@@ -10,7 +10,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false)
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-       <div className='ml-10'>
+       <div className='ml-5'>
         <div className="bg-gradient-to-r from-blue-500 to-red-600 text-black text-4xl font-bold rounded-full w-20 h-20 flex justify-center items-center shadow-lg">
           SS
         </div>
@@ -45,11 +45,13 @@ const Navbar = () => {
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
-                <img className="w-32" src={logo} alt="logo" />
-                <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+              <div className='ml-1'>
+        <div className="bg-gradient-to-r from-blue-500 to-red-600 text-black text-4xl font-bold rounded-full w-20 h-20 flex justify-center items-center shadow-lg">
+          SS
+        </div>
+        </div>
+                <p className="text-sm text-gray-400 mt-5">
+           <span className='font-sans font-semibold text-red-500 text-2xl ml-3 mr-1 '>     Hii, </span>Myself Satyam Singh, a  Computer Science B.Tech student passionate about crafting innovative digital solutions. Skilled in full-stack development, I build scalable, user-centric applications using React, NodeJS, and MongoDB. Driven by creativity and problem-solving, I thrive in collaborative environments, designing impactful projects that blend technology with seamless user experiences.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">

@@ -17,8 +17,7 @@ const ContactLeft = () => {
         <h3 className="text-3xl font-bold text-white">Satyam Singh</h3>
         <p className="text-lg font-normal text-gray-400">MERN Stack Developer</p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+        Innovative B.Tech student passionate about full-stack development, creating scalable, user-focused applications with modern technologies
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+91 8957820454</span>
