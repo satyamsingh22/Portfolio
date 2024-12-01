@@ -19,7 +19,7 @@ const Experience = () => {
             title="FT Salon Acadmey"
             subTitle="Web Developer - (July-August)"
             result="Remote"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            des="I interned at F Saloon Academy, where I developed a website from scratch, working on both frontend and backend components."
           />
          <ResumeCard
   title="Mediversal Pvt Ltd "
