@@ -4,6 +4,7 @@ import {logo} from "../../assets/index"
 import { Link } from 'react-scroll';
 
 const Footer = () => {
+  
   return (
     <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
       <div className="w-full h-full flex flex-col gap-8">
@@ -11,7 +12,7 @@ const Footer = () => {
         <hr/>
         <div className="flex gap-4">
           <span className="bannerIcon">
-          <Link to='https://www.instagram.com/thakur_shaheb_9898/'> <FaInstagram /> </Link> 
+          <a href='https://www.instagram.com/thakur_shaheb_9898/'> <FaInstagram /> </a> 
           </span>
           <span className="bannerIcon">
             <FaGithub />
