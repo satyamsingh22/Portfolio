@@ -26,7 +26,7 @@ const Projects = () => {
         />
           <ProjectsCard
           title="Job Portal"
-          des="Developed a Job Portal using the MERN stack, implementing JWT authentication for secure login and role-based access for job seekers, employers, and admins. Created an Admin Panel for managing job postings, applications, and company profiles. Used Redux for state management and MongoDB for efficient data storage."
+          des="Developed a Job Portal using MERN stack, integrating JWT authentication for secure login, role-based access control, and an Admin Panel to manage jobs, applications, and company profiles. Utilized Redux and MongoDB.."
           src={job}
           projectLink="hhttps://job-portal-hchg.onrender.com/"
         />
