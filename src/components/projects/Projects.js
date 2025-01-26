@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../layouts/Title';
-import {   doctor, tour, chat, portfolio, recipe, weather } from "../../assets/index";
+import {   doctor, tour, chat, portfolio, recipe, weather, job, wallpaper } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -16,7 +16,21 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+      
+        
         <ProjectsCard
+          title="Chatting App"
+          des="Satyam Chat is a real-time communication app built with MERN stack and Socket.io for live chat and notifications. It uses Redux for efficient state management, providing seamless user interactions."
+          src={chat}
+          projectLink="https://satyam-chat.onrender.com/login"
+        />
+          <ProjectsCard
+          title="Job Portal"
+          des="Developed a Job Portal using the MERN stack, implementing JWT authentication for secure login and role-based access for job seekers, employers, and admins. Created an Admin Panel for managing job postings, applications, and company profiles. Used Redux for state management and MongoDB for efficient data storage."
+          src={job}
+          projectLink="hhttps://job-portal-hchg.onrender.com/"
+        />
+          <ProjectsCard
           title="Doctor Appointment"
           des="A Doctor Appointment system built with MERN stack and Redux for state management. It allows users to book, manage appointments, and interact with doctors through an intuitive, responsive interface."
           src={doctor}
@@ -29,16 +43,16 @@ const Projects = () => {
           projectLink="https://tour-andtravel.netlify.app/"
         />
         <ProjectsCard
-          title="Chatting App"
-          des="Satyam Chat is a real-time communication app built with MERN stack and Socket.io for live chat and notifications. It uses Redux for efficient state management, providing seamless user interactions."
-          src={chat}
-          projectLink="https://satyam-chat.onrender.com/login"
-        />
-        <ProjectsCard
           title="Recipe App"
           des="A Recipe App developed using HTML, CSS, and JavaScript. It fetches data from an API, allowing users to search and explore various recipes, with an interactive and user-friendly interface."
           src={recipe}
           projectLink=""
+        />
+        <ProjectsCard
+          title="WallPaper App"
+          des="Built a Wallpaper App using React Native and Unsplash API, allowing users to search and download high-quality wallpapers. Focused on delivering a smooth and responsive user experience with optimized API integration."
+          src={wallpaper}
+          projectLink="https://github.com/satyamsingh22/Wallpaper-App"
         />
         <ProjectsCard
           title="Portfolio"

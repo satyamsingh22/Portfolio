@@ -5,11 +5,13 @@ import tour from "./images/projects/tour.png";
 import doctor from "./images/projects/doctor.png";
 import portfolio from "./images/projects/portfolio.png"
 import recipe from "./images/projects/recipe.png";
+import job from "./images/projects/Job.png"
 import weather from "./images/projects/weather.png"
 import testimonialOne from "./images/testmonial/testimonialOne.png"
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
+import wallpaper from './images/projects/wallpaper.jpeg'
 
 export {
   logo,
@@ -23,5 +25,6 @@ export {
   quote,
   contactImg,
   recipe,
-  weather
+  weather,
+  job,wallpaper
 };
